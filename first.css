@@ -1,0 +1,97 @@
+body{
+  background-color: gray;
+}
+#head{
+  background: black;
+  margin-top:0px;
+}
+
+h2{
+  color: #333;
+}
+p{
+  text-indent: 20px;
+}
+#baidu {
+  height: 60px;
+  padding: 7px 5px 3px;
+}
+#head li{
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+
+}
+#head li a:link{
+  padding: 1px 10px 1px 10px;
+  color: #fff;
+
+  /*border-radius: 3px;
+  border: 1px outset rgba(50,50,50,.5);*/
+  font-family: georgia, serif;
+  font-size: 14px;
+  font-style: italic;
+  text-decoration: none;
+}
+#author{
+   display:flex;
+
+}
+h4{
+  margin-right: 5px;
+}
+#head li a:visited {
+  padding: 1px 10px 1px 10px;
+  color: #fff;
+  /*background: #555;*/
+  /*border-radius: 3px;
+  border: 1px outset rgba(50,50,50,.5);*/
+  font-family: georgia, serif;
+  font-size: 14px;
+  font-style: italic;
+  text-decoration: none;
+}
+
+#head li a:hover, #head li a:focus, #head li a:active {
+  color: #666;
+}
+
+.main1{
+  margin:5px 5px;
+  background: white;
+  padding:5px 5px;
+}
+ul ol{
+  padding:5px 0px;
+}
+
+#imageList{
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  padding:5px 5px;
+  margin:10px 10px;
+}
+#imageList img{
+  height: 80px;
+  width: 80px;
+}
+.table{
+  width:100%;
+  border-collapse:collapse;
+}
+.table td,.table th{
+   border:gray solid 1px;
+}
+.table th{
+  color: white;
+  background: black;
+}
+
+form table tr td:first-child{
+  text-align:right;
+}
+form button{
+  width: 100%;
+  background: blue;
+}
